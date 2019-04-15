@@ -10,6 +10,8 @@ saolei.cpp 文件内是扫雷游戏生成地雷，生成相应数字表的内容
 方法reclick()模拟鼠标右键点击。
 方法findwarn()模拟鼠标左右键一同点击。
 
+
+
 autosaolei.cpp 内主要是类autosaolei的实现，具体为通过restart()方法刷新状态，通过working(minta)方法接收一次游戏，
 该函数返回值为该次扫雷游戏是否胜利（点开所有非雷格子）。
 通过以下具体函数实现
